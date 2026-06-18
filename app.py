@@ -193,7 +193,8 @@ if run:
         ax.set_xlabel("Settlement/Diameter (%)")
         ax.set_ylabel("Load (kN)")
         ax.set_xlim([0, 25])
-        ax.set_ylim([0, 2000])
+        ymax_q = math.ceil(max(Qi) / 100) * 100
+        ax1.set_ylim(0, ymax_q)
         ax.grid(True, linestyle="--")
         st.pyplot(fig)
 
