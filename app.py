@@ -225,7 +225,7 @@ st.markdown(
     </style>
 
     <div class="footer">
-        © 2026 Constructech Services. All rights reserved.
+        © 2026 Prof. Mohamed Shahin & Dr. Rodaina Aboul Hosn. All rights reserved.
     </div>
     """,
     unsafe_allow_html=True
