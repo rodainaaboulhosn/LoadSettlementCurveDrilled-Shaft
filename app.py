@@ -16,7 +16,7 @@ from openpyxl import Workbook
 # PAGE CONFIG
 # ----------------------------
 st.set_page_config(page_title="Load-Settlement Model", layout="wide")
-st.title("ANN Model for Load–Settlement Response of Drilled Shafts")
+st.title("RNN Model for Load–Settlement Response of Drilled Shafts")
 
 # ----------------------------
 # INPUTS (REPLACES QLineEdit)
