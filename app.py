@@ -164,10 +164,10 @@ def run_model(D, L, qct, frt, qcs, frs):
 
         outp = 10805.0 *  (outp - 0.1) / 0.8  + 74.0
         
-        if (self.outp<74.0):
-            self.outp = 74.0
-        elif (self.outp>10879.0):
-            self.outp = 10879.0
+        if (outp<74.0):
+            outp = 74.0
+        elif (outp>10879.0):
+            outp = 10879.0
 
         Ei += Delta_Ei
         Delta_Ei += 0.05
